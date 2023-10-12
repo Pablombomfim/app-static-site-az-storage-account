@@ -1,4 +1,4 @@
 variable "stracctstaticsite" {
     type    = string
-    default = "mystaticsitePMB"
+    default = "mystaticsitepmb"
 }
