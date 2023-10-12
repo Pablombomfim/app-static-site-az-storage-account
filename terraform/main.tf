@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "rg-staticsite" {
-  name     = "rg-staticsite"
+resource "azurerm_resource_group" "rg-staticsite12" {
+  name     = "rg-staticsite12"
   location = "eastus"
 }
  
