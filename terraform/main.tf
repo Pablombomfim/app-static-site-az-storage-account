@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "rg-staticsite12" {
  
 resource "azurerm_storage_account" "stracctstaticsite" {
   name                     = var.stracctstaticsite
-  resource_group_name      = azurerm_resource_group.rg-staticsite.name
+  resource_group_name      = azurerm_resource_group.rg-staticsite12.name
   location                 = "eastus"
   account_tier             = "Standard"
   account_replication_type = "LRS"
